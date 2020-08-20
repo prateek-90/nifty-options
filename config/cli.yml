@@ -1,0 +1,17 @@
+name: nifty-options
+version: "1.0"
+author: Prateek Kumar <p.k.bit.prateek@gmail.com>
+about: Does awesome things
+args:
+    - oi_threshold:
+        short: oi_th
+        long: oi_threshold
+        help: Sets a threshold value for Open interest
+        takes_value: true
+        index: 1
+    - percent_threshold:
+        short: pc_th
+        long: percent_threshold
+        help: Sets a threshold value for percent decrease
+        takes_value: true
+        index: 2
