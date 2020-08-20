@@ -1,4 +1,4 @@
-Nifty Options data fetcher
+# Nifty Options data fetcher
 
 1. Hit API request and fetch data 
 2. Filter relevant timeframe data  
